@@ -1,0 +1,19 @@
+{
+  "result": true,
+  "post": "$_POST",
+  "errorText": "Неправильный пароль",
+  "error": [
+    {
+      "name": "name"
+    },
+    {
+      "name": "email"
+    },
+    {
+      "name": "phone"
+    },
+    {
+      "name": "app"
+    }
+  ]
+}

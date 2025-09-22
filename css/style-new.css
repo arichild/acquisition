@@ -1,0 +1,1712 @@
+.page-container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 clamp(3rem, 1.958rem + 2.17vw, 4.563rem);
+}
+
+.content-container {
+  max-width: 1344px;
+  margin: 0 auto;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  padding: 1rem;
+  font-family: "Mont Bold";
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  background-color: #17afc8;
+  transition: 0.3s ease-in-out;
+}
+
+.button.white {
+  background-color: #fff;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 20px 0px #ffffff99;
+}
+
+.top-section-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.home .top-section-bg {
+  margin-bottom: 6.25rem;
+  background-image: url(/img/index/hero-bg.jpg);
+}
+
+.header__content {
+  padding: clamp(1.5rem, 0.5rem + 2.08vw, 3rem) 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: clamp(1.25rem, -0.25rem + 3.13vw, 3.5rem);
+}
+
+.header__logo {
+  height: clamp(2.375rem, 1.958rem + 0.87vw, 3rem);
+}
+
+.header__logo img {
+  height: 100%;
+}
+
+#MainMenu ul {
+  display: flex;
+  align-items: start;
+  gap: clamp(1.25rem, -0.25rem + 3.13vw, 3.5rem);
+}
+
+#MainMenu ul li {
+  display: flex;
+  align-items: start;
+  opacity: 1;
+  line-height: 1.28;
+}
+
+#MainMenu ul li a {
+  font-family: "Mont Regular";
+  font-weight: 600;
+  font-size: clamp(0.875rem, 0.458rem + 0.87vw, 1.5rem);
+  text-transform: uppercase;
+  color: #17afc8;
+  line-height: inherit;
+  transition: 0.3s ease-in-out;
+}
+
+#MainMenu ul a:hover {
+  opacity: 0.6;
+}
+
+#MainMenu ul .lang-item {
+  display: flex;
+  gap: clamp(1rem, 0.583rem + 0.87vw, 1.625rem);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+}
+
+.hero.new p {
+  color: #fff;
+}
+
+.home .hero {
+  padding: clamp(4rem, 3.292rem + 1.48vw, 5.063rem) 0
+    clamp(4rem, 1.792rem + 4.6vw, 7.313rem);
+}
+
+.hero h1,
+.contact-page h1 {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: clamp(4.625rem, 3.542rem + 2.26vw, 6.25rem);
+  line-height: 1;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: default;
+}
+
+.hero p {
+  max-width: 850px;
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  color: #17afc8;
+}
+
+.home .hero .button {
+  font-size: 1.25rem;
+}
+
+.clients {
+  margin-bottom: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.25rem;
+}
+
+.clients h2 {
+  font-family: "Mont Bold";
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  text-align: center;
+  color: #17afc8;
+  cursor: default;
+}
+
+.clients__list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.75rem;
+}
+
+.clients__logo {
+  height: 2rem;
+}
+
+.clients__logo img {
+  height: 100%;
+}
+
+.services {
+  margin-bottom: 6.25rem;
+  padding: 1.5rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.services__head {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+}
+
+.services__head h2 {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: default;
+}
+
+.services__head p {
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  color: #17afc8;
+}
+
+.services__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.75rem;
+}
+
+.services__item {
+  display: flex;
+  gap: 1.125rem;
+}
+
+.service__item-icon {
+  width: 2.75rem;
+  flex-shrink: 0;
+}
+
+.service__item-icon img {
+  width: 100%;
+}
+
+.service__item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.service__item-content h4 {
+  font-family: "Mont Bold";
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.service__item-content p {
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.28;
+  color: #17afc8;
+}
+
+.portfolio-link {
+  height: clamp(3.438rem, -0.205rem + 5.69vw, 6.625rem);
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.125rem;
+  font-family: "Mont Bold";
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #00253a;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio-link span {
+  flex: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio-link img {
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio-link::after {
+  content: url(../img/index/arrow_forward.svg);
+  height: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio-link:hover *,
+.portfolio-link:hover::after {
+  transform: scale(1.05);
+}
+
+.achievements {
+  padding: 1.5rem 0;
+  margin-bottom: 6.25rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  gap: 4rem;
+}
+
+.achievment {
+  position: relative;
+}
+
+.achievements img {
+  filter: grayscale();
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.achievment__overlay {
+  position: absolute;
+  inset: -2px;
+  mix-blend-mode: lighten;
+  background-color: #001e2f;
+}
+
+.mission {
+  padding: 1.5rem 0;
+  margin-bottom: 6.25rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: end;
+  gap: 4rem;
+}
+
+.mission__head {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mission__head h2 {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: default;
+}
+
+.mission__head p {
+  font-family: "Mont Regular";
+  font-weight: 500;
+  line-height: 1.28;
+  color: #17afc8;
+}
+
+.mission__description-strong {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.mission__description {
+  font-size: 1.125rem;
+}
+
+.mission__indicators {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.mission__indicator {
+  display: flex;
+  flex-direction: column;
+}
+
+.mission__indicator-number {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.mission__indicator-info {
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  color: #17afc8;
+}
+
+.cta {
+  padding: 0 clamp(0rem, -3.042rem + 6.34vw, 4.563rem);
+  margin-bottom: 6.25rem;
+}
+
+.cta__container {
+  background-image: url(/img/index/cta-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cta__content {
+  padding: clamp(7rem, 5.25rem + 3.65vw, 9.625rem) 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+}
+
+.cta__content h2 {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: default;
+}
+
+.cta__content .button {
+  font-size: 1.25rem;
+}
+
+.articles-section {
+  margin-bottom: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.articles-section h2 {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: default;
+}
+
+.articles__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.articles__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.articles__item:hover {
+  transform: translateY(-20px);
+}
+
+.articles__item-cover {
+  height: clamp(7.5rem, -2.333rem + 20.49vw, 14.875rem);
+}
+
+.articles__item-cover img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.articles__item-title h4 {
+  font-family: "Mont Bold";
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.articles__item-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.articles__item-meta p {
+  font-family: "Mont Regular";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #17afc8;
+}
+
+.articles-section .button {
+  align-self: flex-start;
+}
+
+#contact {
+  padding: 5rem 0;
+  margin-bottom: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(5rem, 1.583rem + 7.12vw, 10.125rem);
+}
+
+#contact h2 {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#contact form .form__fields {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+#contact form .form__field {
+  position: relative;
+}
+
+#contact form .form__field:last-child {
+  grid-column: span 3;
+}
+
+#contact form .form__field .form-control {
+  padding: 0;
+  padding-bottom: 1.125rem;
+  font-family: "Mont";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.28;
+  color: #17afc8;
+}
+
+#contact form .form__field textarea.form-control {
+  height: 3.1875rem;
+  resize: none;
+}
+
+#contact form .form__field .form-control::placeholder {
+  font: inherit;
+  text-transform: uppercase;
+  white-space: normal;
+}
+
+#contact form .form__field svg {
+  left: -2px;
+}
+
+.form__submit-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form__submit-container .send {
+  align-self: flex-end;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  gap: 6.25rem;
+}
+
+.footer__top {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.footer__menus {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer__menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer__menu-title {
+  font-family: "Mont Bold";
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  color: #ffffff;
+}
+
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer__menu a {
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  color: #17afc8;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.footer__menu a:hover {
+  opacity: 0.6;
+}
+
+.footer__about {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.footer__about-info {
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  color: #17afc8;
+}
+
+.footer__socials-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__socials-list a,
+.footer__bottom-link a {
+  transition: 0.3s ease-in-out;
+}
+
+.footer__socials-list a:hover,
+.footer__bottom-link a:hover {
+  opacity: 0.6;
+}
+
+.footer__bottom {
+  padding: 2rem 0 5rem;
+  display: flex;
+  column-gap: clamp(3.75rem, 0.893rem + 4.46vw, 6.25rem);
+  row-gap: 1rem;
+}
+
+.footer__bottom-copyright,
+.footer__bottom-link a {
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  color: #17afc8;
+}
+
+/* Promotion page */
+
+.promotion .top-section-bg {
+  background-image: url(/img/index/promotion-bg.jpg);
+}
+
+.promotion .hero {
+  padding: 8.96875rem 0;
+  margin-bottom: 6.25rem;
+  align-items: center;
+}
+
+.promotion .hero h1,
+.promotion .hero p {
+  text-align: center;
+}
+
+.promotion-services {
+  margin-bottom: 6.25rem;
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.promotion-services h2 {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: default;
+}
+
+.promotion-services__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.75rem;
+}
+
+.promotion-services__item {
+  max-width: calc(100% / 3 - 2.75rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.promotion-services__item-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+}
+
+.promotion-services__item-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.promotion-services__item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.promotion-services__item-content h4 {
+  font-family: "Mont Bold";
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.promotion-services__item-content p {
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.28;
+  color: #17afc8;
+}
+
+.steps {
+  margin-bottom: 6.25rem;
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.steps h2 {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: default;
+  text-align: center;
+  word-break: break-word;
+}
+
+.steps__list {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.steps__divider img {
+  mask-image: linear-gradient(
+    to bottom,
+    #001e2f 0%,
+    #001e2f 50%,
+    transparent 115%
+  );
+}
+
+.steps__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.steps__overlay {
+  position: absolute;
+  top: calc(50% - 184px / 2);
+  width: 184px;
+  height: 184px;
+  background: radial-gradient(50% 50% at 50% 50%, #007b8f 0%, #001e2f 100%);
+  filter: blur(42.8px);
+  z-index: -1;
+}
+
+.steps__item h4 {
+  font-family: "Mont Bold";
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+.steps__item p {
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  color: #17afc8;
+  text-align: center;
+}
+
+.promotion .mission {
+  align-items: center;
+}
+
+.promotion .mission__description-strong {
+  font-family: "Mont Bold";
+  font-weight: 800;
+}
+
+.mission__description-strong_highlighted {
+  color: #ffffff;
+}
+
+.mission__image source,
+.mission__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sources {
+  margin-bottom: 6.25rem;
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.sources h2 {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: default;
+}
+
+.sources__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 140px);
+  column-gap: 5rem;
+  row-gap: 2.75rem;
+}
+
+.sources__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.sources__item:hover {
+  transform: translateY(-20px);
+}
+
+.sources__item-icon img {
+  width: 100%;
+}
+
+.sources__item-name {
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  text-align: center;
+  color: #17afc8;
+}
+
+.sources__description {
+  width: 50%;
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  color: #17afc8;
+}
+
+.feedbacks {
+  margin-bottom: 6.25rem;
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 4rem;
+}
+
+.feedbacks h2 {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: default;
+}
+
+.feedbacks__list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
+  gap: 2rem;
+}
+
+.feedbacks__item {
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 2px solid #17b0c84d;
+}
+
+.feedbacks__item::before {
+  content: url(/img/common/quot-icon.svg);
+  height: 1.71875rem;
+}
+
+.feedbacks__item-title {
+  font-family: "Mont Bold";
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+.feedbacks__item-text,
+.feedbacks__item-company {
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  color: #17afc8;
+}
+
+.feedbacks__item-text {
+  flex-grow: 1;
+}
+
+.faq {
+  margin-bottom: 6.25rem;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.faq h2 {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: default;
+}
+
+.accordion {
+  max-width: 768px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.accordion__item {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.accordion__button {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  text-align: start;
+  transition: all 0.4s ease-out;
+}
+
+.accordion__item.opened .accordion__button {
+  margin-bottom: 1rem;
+}
+
+.accordion__button h4 {
+  font-family: "Mont Bold";
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.accordion__button::after {
+  content: "+";
+  font-family: "math";
+  font-size: 42px;
+  line-height: 0.57;
+  transition: 0.3s ease-in-out;
+}
+
+.accordion__item.opened .accordion__button::after {
+  transform: rotate(45deg);
+}
+
+.accordion__text {
+  width: 85%;
+  max-height: 0px;
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  color: #17afc8;
+  overflow: hidden;
+  transition: all 0.4s ease-out;
+}
+
+/* Cgi production page */
+
+.cgi-production .top-section-bg {
+  background-image: url(/img/index/cgi-production-bg.jpg);
+}
+
+.cgi-production .hero {
+  padding: 6.125rem 0;
+  margin-bottom: 6.25rem;
+}
+
+.cgi-services {
+  padding: 1.5rem 0;
+  margin-bottom: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6.25rem;
+}
+
+.cgi-service {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cgi-service h2 {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: clamp(3.5rem, 2.833rem + 1.39vw, 4.5rem);
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: default;
+}
+
+.cgi-service .cgi-service__info {
+  max-width: 755px;
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  color: #17afc8;
+}
+
+.cgi-service__image {
+  overflow: hidden;
+}
+
+.cgi-service__image img {
+  width: 100%;
+  height: 37.5rem;
+  object-fit: cover;
+  mask-image: linear-gradient(360deg, rgba(0, 0, 0, 0) 5%, #001e2f 68%);
+  transition: all 0.5s ease-in-out;
+}
+
+.cgi-service__image:hover img {
+  transform: scale(1.1);
+}
+
+.cgi-service__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2.75rem;
+}
+
+.cgi-service__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.cgi-service__item h4 {
+  font-family: "Mont Bold";
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.cgi-service__item p {
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  color: #17afc8;
+}
+
+.cgi-service_min {
+  position: relative;
+}
+
+.cgi-service_min h2 {
+  height: 37.5rem;
+  padding: 1.5rem;
+  font-size: clamp(3.5rem, 1.667rem + 3.82vw, 6.25rem);
+  align-content: end;
+}
+
+.cgi-service_min .cgi-service__image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.cgi-service_min .cgi-service__info {
+  max-width: 682px;
+  padding: 1.5rem;
+  padding-top: 0;
+}
+
+.advantages {
+  margin-bottom: 6.25rem;
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.advantages__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.advantages__head h2 {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: default;
+}
+
+.advantages__clutch-widget {
+  width: 133px;
+  flex-shrink: 0;
+  filter: invert(0.5) brightness(3);
+}
+
+.advantages__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  column-gap: 2rem;
+  row-gap: 4rem;
+}
+
+.advantages__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.advantages__item::before {
+  content: url(/img/common/advantages-icon.svg);
+  height: 4rem;
+  filter: drop-shadow(0px 0.83436px 16.3px #17afc8);
+}
+
+.advantages__item h4 {
+  font-family: "Mont Bold";
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.advantages__item p {
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.28;
+  color: #17afc8;
+}
+
+/*  Contact page */
+
+.contact-page h1 {
+  margin-top: 5rem;
+  margin-bottom: 6.25rem;
+}
+
+.team {
+  padding: 1.5rem 0;
+  margin-bottom: 6.25rem;
+}
+
+.team__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(2rem, 0.667rem + 2.78vw, 4rem);
+}
+
+.team__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.team__item-photo {
+  width: 100%;
+  height: clamp(20.5rem, 17.75rem + 5.73vw, 24.625rem);
+}
+
+.team__item-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  mask-image: linear-gradient(360deg, rgba(0, 0, 0, 0) 5%, #001e2f 68%);
+}
+
+.team__item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.team__item-name,
+.team__item-position {
+  font-family: "Mont Bold";
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.team__item-link {
+  font-family: "Mont Regular";
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.28;
+  color: #17afc8;
+  text-decoration: underline;
+  transition: 0.3s ease-in-out;
+}
+
+.team__item-link:hover {
+  opacity: 0.7;
+}
+
+.contacts-info {
+  padding: 1.5rem 0;
+  margin-bottom: 6.25rem;
+}
+
+.contacts-info__list {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.contacts-info__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contacts-info__item h4 {
+  font-family: "Mont Bold";
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.contacts-info__item a {
+  font-family: "Mont Heavy";
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: #17afc8;
+  transition: 0.3s ease-in-out;
+}
+
+.contacts-info__item a:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1023px) {
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-link {
+    position: relative;
+    height: auto;
+    padding-top: 2rem;
+    padding-right: 5.125rem;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .portfolio-link img {
+    height: 6.625rem;
+  }
+
+  .portfolio-link::after {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .mission {
+    grid-template-columns: 1fr;
+    align-items: end;
+  }
+
+  .cta__container {
+    background-image: url(/img/index/cta-bg-tablet.jpg);
+  }
+
+  .cta__content h2 br {
+    display: none;
+  }
+
+  .articles__list {
+    grid-template-columns: 1fr;
+  }
+
+  .articles__item:hover {
+    transform: none;
+  }
+
+  .articles__item-cover {
+    height: auto;
+  }
+
+  .footer__top {
+    grid-template-columns: 1fr;
+  }
+
+  /* .footer__about {
+    grid-row-start: 1;
+  } */
+
+  .footer__menus {
+    justify-content: space-between;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+  }
+
+  /* Promotion page */
+
+  .promotion .top-section-bg,
+  .cgi-production .top-section-bg {
+    background-position: center -6.25rem;
+  }
+
+  .promotion .hero {
+    padding: 9.875rem 0;
+    align-items: start;
+  }
+
+  .promotion .hero h1,
+  .promotion .hero p {
+    text-align: start;
+  }
+
+  .promotion-services {
+    align-items: start;
+  }
+
+  .promotion-services__list {
+    flex-direction: column;
+  }
+
+  .promotion-services__item {
+    max-width: none;
+    flex-direction: row;
+  }
+
+  .promotion-services__item-content h4 {
+    line-height: 1.79;
+  }
+
+  .sources__item:hover {
+    transform: none;
+  }
+
+  .sources__description {
+    width: 100%;
+  }
+
+  .feedbacks__list {
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-rows: repeat(4, 1fr); */
+  }
+
+  .faq {
+    flex-direction: column;
+  }
+
+  .accordion {
+    max-width: none;
+    gap: 1rem;
+  }
+
+  .accordion__button {
+    padding: 1.125rem 0;
+    gap: clamp(0.75rem, -5.228rem + 23.91vw, 6.25rem);
+  }
+
+  .accordion__item.opened .accordion__button {
+    margin-bottom: 0;
+  }
+
+  /* Cgi production page */
+
+  .cgi-production .hero {
+    padding: 7.03125rem 0;
+  }
+
+  .cgi-service h2 br {
+    display: none;
+  }
+
+  .cgi-service_min h2 {
+    height: auto;
+    padding: 0;
+  }
+
+  .cgi-service_min .cgi-service__info {
+    max-width: none;
+    padding: 0;
+  }
+
+  .cgi-service__image:hover img {
+    transform: none;
+  }
+
+  .cgi-service_min .cgi-service__image {
+    position: static;
+    z-index: 1;
+  }
+
+  .cgi-service_min .cgi-service__image img {
+    mask-image: none;
+  }
+
+  /*  Contact page */
+
+  .team__list {
+    grid-template-columns: 1fr;
+  }
+
+  .team__item {
+    flex-direction: row;
+  }
+
+  .team__item-photo {
+    width: 50%;
+    flex-shrink: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page-container {
+    padding: 0 clamp(1.5rem, -0.31rem + 6.9vw, 3rem);
+  }
+
+  .hero h1,
+  .contact-page h1 {
+    font-size: clamp(2.25rem, -0.332rem + 10.33vw, 4.625rem);
+  }
+
+  .clients__list {
+    row-gap: 2rem;
+    column-gap: 2.875rem;
+  }
+
+  .services__head h2 {
+    font-size: clamp(1.5rem, 0.595rem + 3.45vw, 2.25rem);
+  }
+
+  .service__item-content h4 {
+    font-size: clamp(1.125rem, 0.672rem + 1.72vw, 1.5rem);
+    line-height: 2.4;
+  }
+
+  .portfolio-link {
+    font-size: clamp(1.125rem, 0.672rem + 1.72vw, 1.5rem);
+  }
+
+  .achievements {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home .mission__head h2 {
+    font-size: clamp(1.5rem, 0.595rem + 3.45vw, 2.25rem);
+  }
+
+  .home .mission__description-strong {
+    font-size: clamp(1.125rem, 0.672rem + 1.72vw, 1.5rem);
+  }
+
+  .mission__indicators {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .cta__container {
+    background-image: url(/img/index/cta-bg-mobile.jpg);
+  }
+
+  .cta__content {
+    padding: 11.5rem 0;
+  }
+
+  .cta__content h2 {
+    font-size: clamp(3rem, 1.913rem + 4.35vw, 4rem);
+    line-height: 1;
+  }
+
+  #contact h2 {
+    font-size: clamp(3.5rem, 2.957rem + 2.17vw, 4rem);
+    line-height: 1;
+  }
+
+  #contact form .form__fields {
+    grid-template-columns: 1fr;
+  }
+
+  #contact form .form__field:last-child {
+    grid-column: span 1;
+  }
+
+  .form__submit-container .send {
+    margin-top: 2rem;
+  }
+
+  .footer__menus {
+    flex-direction: column;
+  }
+
+  /* Promotion page */
+
+  .promotion .hero {
+    padding: 11.53125rem 0;
+  }
+
+  .promotion-services__item-content h4 {
+    min-height: 2.6875rem;
+    font-size: clamp(1.125rem, 0.717rem + 1.63vw, 1.5rem);
+  }
+
+  .steps h2 br {
+    display: none;
+  }
+
+  .sources__list {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: clamp(1.563rem, -2.174rem + 14.95vw, 5rem);
+  }
+
+  .sources__item {
+    gap: clamp(0.75rem, 0.478rem + 1.09vw, 1rem);
+  }
+
+  .sources__item-name {
+    font-size: clamp(0.875rem, 0.467rem + 1.63vw, 1.25rem);
+  }
+
+  .feedbacks__list {
+    grid-template-rows: auto;
+  }
+
+  .faq h2 {
+    font-size: clamp(2.25rem, 0.348rem + 7.61vw, 4rem);
+    text-align: center;
+  }
+
+  /* Cgi production page */
+
+  .cgi-production .hero {
+    padding: 8.6875rem 0;
+  }
+
+  .cgi-service h2 {
+    font-size: clamp(2.25rem, 0.891rem + 5.43vw, 3.5rem);
+  }
+
+  .cgi-service__item h4 {
+    font-size: clamp(1.125rem, 0.717rem + 1.63vw, 1.5rem);
+  }
+
+  .cgi-service__image img {
+    height: clamp(22rem, 5.152rem + 67.39vw, 37.5rem);
+  }
+
+  .advantages__head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .advantages__item::before {
+    content: url(/img/common/advantages-icon-mobile.svg);
+    height: 2.75rem;
+    filter: drop-shadow(0px 0.573623px 11.2062px #17afc8);
+  }
+
+  .advantages__item h4 {
+    font-size: clamp(1.125rem, 0.717rem + 1.63vw, 1.5rem);
+  }
+
+  /*  Contact page */
+
+  .contact-page h1 {
+    margin-top: clamp(4rem, 2.913rem + 4.35vw, 5rem);
+  }
+
+  .team__item {
+    flex-direction: column;
+  }
+
+  .team__item-photo {
+    width: 100%;
+    height: 21.375rem;
+  }
+
+  .contacts-info__item a {
+    font-family: "Mont Regular";
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: none;
+  }
+
+  .contacts-info__item a.underline {
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #contact form .form__field textarea.form-control {
+    height: 5.125rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .portfolio-link img {
+    height: clamp(5rem, -0.2rem + 26vw, 6.625rem);
+  }
+
+  .portfolio-link {
+    padding-top: clamp(1rem, -2.2rem + 16vw, 2rem);
+    padding-left: clamp(1rem, -2.2rem + 16vw, 2rem);
+    padding-right: clamp(4.125rem, 0.925rem + 16vw, 5.125rem);
+  }
+
+  .portfolio-link::after {
+    top: clamp(1rem, -2.2rem + 16vw, 2rem);
+    right: clamp(1rem, -2.2rem + 16vw, 2rem);
+  }
+
+  .articles-section .button {
+    align-self: stretch;
+  }
+  /* Promotion page */
+
+  .promotion-services {
+    align-items: stretch;
+  }
+
+  .feedbacks {
+    align-items: stretch;
+  }
+}
