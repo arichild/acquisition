@@ -9,14 +9,14 @@
 
 .new-custom .advantages__item-img {
   line-height: 0;
-  width: 4rem;
-  height: 4rem;
+  width: 3.75rem;
+  height: 3.75rem;
 }
 
 .new-custom .advantages__item-img img {
-  width: 100%;
+  /* width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: contain; */
   filter: drop-shadow(0px 0px 14px #17afc8);
 }
 
@@ -294,6 +294,7 @@
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 4rem;
+  max-width: 56.25rem;
 }
 
 .cases-card {
@@ -338,10 +339,11 @@
   width: 100%;
   font-weight: 800;
   font-size: 1.5rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #fff;
   padding: .75rem 2.625rem;
   transition: opacity .4s ease-in-out;
+  line-height: 1.4;
 }
 
 .cases-block-list {
@@ -547,10 +549,10 @@
     width: max-content;
   }
 
-  .new-custom .advantages__item-img {
+  /* .new-custom .advantages__item-img {
     width: 3rem;
     height: 3rem;
-  }
+  } */
 
   .new-custom .advantages__item p {
     font-size: 1rem;
@@ -746,7 +748,7 @@
 
 /* cases-new */
 .result-block {
-  margin-bottom: 14.375rem;
+  margin-bottom: 6.5625rem;
   font-family: "Mont Bold";
 }
 
@@ -1017,7 +1019,8 @@
   text-transform: uppercase;
   color: #fff;
   font-family: "Mont Heavy";
-  margin-bottom: 3.125rem;
+  margin-bottom: 1.875rem;
+  line-height: 1;
 }
 
 .case-info-subtitle {
@@ -1038,7 +1041,7 @@
 
 .case-block-left {
   padding-top: 4rem;
-  max-width: 55rem;
+  max-width: 55.625rem;
 }
 
 .case-block-img {
@@ -1105,6 +1108,7 @@
   text-align: center;
   padding: 0 .625rem;
   border-left: 1px solid #fff;
+  font-family: "Mont Bold";
 }
 
 .case-item:last-child {
