@@ -749,7 +749,7 @@
 /* cases-new */
 .result-block {
   margin-bottom: 6.5625rem;
-  font-family: "Mont Bold";
+  font-family: "Mont Regular";
 }
 
 .result-block h2 {
@@ -771,7 +771,7 @@
 }
 
 .result-block-txt p {
-  font-family: "Mont Heavy";
+  /* font-family: "Mont Heavy"; */
   /* text-transform: uppercase; */
   color: #fff;
   margin-bottom: .9375rem;
@@ -825,15 +825,15 @@
 }
 
 .solutions-block h3 {
-  font-family: "Mont Heavy";
+  /* font-family: "Mont Heavy"; */
   font-weight: 900;
   font-size: 1.5rem;
   color: #fff;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.125rem;
 }
 
 .solutions-block p {
-  margin-bottom: 3.375rem;
+  margin-bottom: 3.25rem;
 }
 
 .solutions-block ul {
@@ -877,7 +877,7 @@
   font-weight: 700;
 }
 
-.solutions-block span {
+.solutions-block strong {
   color: #fff;
 }
 
@@ -891,12 +891,12 @@
 }
 
 .solutions-block-txt {
-  max-width: 40rem;
+  max-width: 40.875rem;
 }
 
 .solutions {
   margin-bottom: 9.375rem;
-  font-family: 'Mont Bold';
+  font-family: 'Mont Regular';
 }
 
 .app h2 {
@@ -933,6 +933,7 @@
 
 .app-txt {
   max-width: 40rem;
+  font-family: "Mont Regular";
 }
 
 .app {
@@ -952,11 +953,11 @@
   line-height: 1.4;
   font-weight: 700;
   font-size: 1.5rem;
+  font-family: "Mont Regular";
 }
 
-.problems-list span {
-  font-family: "Mont Heavy";
-  font-weight: 900;
+.problems-list strong {
+  /* font-family: "Mont Heavy"; */
   color: #fff;
 }
 
@@ -1007,6 +1008,8 @@
 
 .case-info {
   max-width: 25.9375rem;
+  /* width: 100%; */
+  line-height: 1.4;
 }
 
 /* .case-info {
@@ -1075,7 +1078,7 @@
 .case-block h1 {
   font-family: "Mont Heavy";
   font-weight: 900;
-  font-size: 6.25rem;
+  font-size: 6.75rem;
   line-height: 1;
   text-transform: uppercase;
   color: #fff;
@@ -1089,6 +1092,7 @@
   font-size: 1.5rem;
   color: #fff;
   margin-bottom: 6.875rem;
+  font-family: "Mont Regular";
 }
 
 .case-list {
@@ -1109,6 +1113,7 @@
   padding: 0 .625rem;
   border-left: 1px solid #fff;
   font-family: "Mont Bold";
+  line-height: 1.4;
 }
 
 .case-item:last-child {
@@ -1137,7 +1142,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 75% 50%;
+  object-position: 72% 50%;
 }
 
 
@@ -1235,16 +1240,18 @@
 
   .case-info {
     max-width: 15rem;
+    width: 100%;
   }
 
   .case-info-title {
     font-size: 4rem;
-    margin-bottom: 3.4375rem;
+    margin-bottom: 2.8125rem;
     line-height: 1;
   }
 
   .case-info-subtitle {
     font-size: 1.5rem;
+    max-width: 11.25rem;
   }
 
   .case-block-left {
@@ -1364,6 +1371,16 @@
 
   .case-list {
     flex-wrap: wrap;
+    /* padding: 0 1.75rem; */
+  }
+
+  .case-item {
+    font-size: .875rem;
+  }
+
+  .case-item-subtitle {
+    max-width: 16.375rem;
+    margin: 0 auto;
   }
 }
 
@@ -1376,6 +1393,10 @@
     margin-bottom: 6.25rem;
   }
 
+  .case-item-subtitle {
+    max-width: 7.375rem;
+  }
+
   .case-block-content {
     margin-bottom: 5rem;
   }
@@ -1386,15 +1407,18 @@
 
   .case-info {
     max-width: 8.125rem;
+    text-align: center;
   }
 
   .case-info-title {
     font-size: 2.5rem;
-    margin-bottom: 1.75rem;
+    width: 100%;
+    margin-bottom: 1.25rem;
   }
 
   .case-info-subtitle {
     font-size: .875rem;
+    max-width: 6.875rem;
   }
 
   .result-block-txt {
